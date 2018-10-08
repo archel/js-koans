@@ -1,3 +1,6 @@
+/**
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+ */
 function Person (name, surname) {
   this.name = name
   this.surname = surname
