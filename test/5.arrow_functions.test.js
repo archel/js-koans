@@ -2,9 +2,7 @@
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
  */
 
-global.setInterval = jest.fn((fn) => fn())
-
-class PoisonedMan {
+class PoisonedPlayer {
   constructor () {
     this.yearsLeft = 100
   }
@@ -18,7 +16,7 @@ class PoisonedMan {
 }
 
 test('change the function to an arrow function', () => {
-  const poisonedMan = new PoisonedMan()
+  const poisonedMan = new PoisonedPlayer()
 
   poisonedMan.slowDeath()
 

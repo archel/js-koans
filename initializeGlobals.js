@@ -12,3 +12,9 @@ global.htmlDocument = {
 
 global.getLatitiude = () => (5)
 global.getLongitude = () => (6)
+
+global.doRequest = () => {
+  return new Promise((resolve) => setTimeout(() => (resolve(100)), 100))
+}
+
+global.setInterval = jest.fn((fn) => fn())

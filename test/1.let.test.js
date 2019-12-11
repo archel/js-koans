@@ -4,9 +4,10 @@
 function arrayLength (array) {
   for (var i = 0; i < array.length; i++) {
   }
+
   return i
 }
 
-test('modify var to let', () => {
+test('modify var to let', function () {
   expect(arrayLength([1, 2, 3, 4, 5, 6])).toBe(6)
 })

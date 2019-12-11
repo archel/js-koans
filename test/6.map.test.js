@@ -4,7 +4,7 @@
 
 function getPeopleNames (people) {
   const names = []
-  for (let index in people) {
+  for (const index in people) {
     const person = people[index]
     names.push(person.name)
   }

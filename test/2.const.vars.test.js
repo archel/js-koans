@@ -3,7 +3,7 @@
  */
 
 function createNumbersList (numberOfNumbers) {
-  for (var i = 0; i < numberOfNumbers; i++) {
+  for (let i = 0; i < numberOfNumbers; i++) {
     global.htmlDocument.getElementByTagName('ul').appendListElementWithNumber(i)
   }
 
@@ -11,7 +11,7 @@ function createNumbersList (numberOfNumbers) {
   global.htmlDocument.getElementByTagName('ul').triggerCreationEvent()
 }
 
-test('modify var to const', () => {
+test('refactor the function to add a const', function () {
   createNumbersList(10)
 
   expect(global.htmlDocument.getElementByTagName('ul').appendListElementWithNumber).toHaveBeenCalledTimes(10)

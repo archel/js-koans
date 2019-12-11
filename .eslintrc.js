@@ -12,6 +12,7 @@ module.exports = {
   ],
   rules: {
     'generator-star-spacing': 'off',
-    'no-debugger': 'off'
+    'no-debugger': 'off',
+    'prefer-const': 'error'
   }
 }
