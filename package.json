@@ -16,8 +16,8 @@
   "author": "Daniel Jordi Perez Quilez",
   "license": "MIT",
   "devDependencies": {
-    "babel-jest": "^23.6.0",
-    "babel-preset-env": "^1.7.0",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-friendly-formatter": "^3.0.0",
@@ -25,7 +25,7 @@
     "eslint-plugin-node": "^5.2.0",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^3.0.1",
-    "jest": "^23.6.0"
+    "jest": "^26.0.1"
   },
   "jest": {
     "transform": {
